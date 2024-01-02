@@ -57,7 +57,7 @@ function print_usage() {
 # Checks
 [[ $1 == "-h" || $1 == "--help" ]] && print_usage
 [[ $(id -u) -ne 0 ]] && die "You must run this script as root or with 'sudo'."
-# [[ -r "$BROKEN_FIX_CHECK" ]] && die "This pwnagotchi device has been already patched. Remove the file '$BROKEN_FIX_CHECK' to patch it again."
+[[ -r "$BROKEN_FIX_CHECK" ]] && die "This pwnagotchi device has been already patched. Remove the file '$BROKEN_FIX_CHECK' to patch it again."
 
 # Main
 if [[ $1 == "-r" || $1 == "--restore" ]]; then
