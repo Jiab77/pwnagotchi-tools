@@ -1,3 +1,3 @@
 # pwnagotchi-tools
 
-Basic tools for the [Pwnagotchi](https://pwnagotchi.ai/) project.
+Basic tools for the [Pwnagotchi](https://github.com/evilsocket/pwnagotchi) project.
